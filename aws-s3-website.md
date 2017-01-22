@@ -1,7 +1,6 @@
 ##Enable existing S3 bucket for static website hosting
 
-- Set existing S3 bucket *mywebsite* for hosting the website with default served document being *index.html* and error page for any 4xx error codes
-being *error.html*
+- Set the existing S3 bucket *mywebsite* for hosting the website with the default served document being *index.html* and the error page for any 4xx response error codes being *error.html*
 
 `aws s3 website s3://mywebsite/ --index-document index.html --error-document error.html`
 
