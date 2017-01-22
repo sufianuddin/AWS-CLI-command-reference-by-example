@@ -1,4 +1,4 @@
-##Enable existing S3 bucket as static website hosting
+##Enable existing S3 bucket for static website hosting
 
 - Set existing S3 bucket *mywebsite* for hosting the website with default served document being *index.html* and error page for any 4xx error codes
 being *error.html*
