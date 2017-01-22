@@ -5,5 +5,5 @@ being *error.html*
 
 `aws s3 website s3://mywebsite/ --index-document index.html --error-document error.html`
 
-- Make sure HTML pages of the bucket are accessible by anyone for reading, for settings see 
+- Make sure HTML pages of the bucket are accessible by anyone for reading, for settings see https://github.com/yuriskinfo/AWS-CLI-command-reference-by-example/blob/master/aws-s3-cp.md or https://github.com/yuriskinfo/AWS-CLI-command-reference-by-example/blob/master/aws-s3-sync.md
 
