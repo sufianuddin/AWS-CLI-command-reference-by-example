@@ -14,7 +14,7 @@
 
 - List contents of a bucket, add summary for number of objects and their total size:
 
-`aws s3 ls  yurisk.info --summarize --human`
+`aws s3 ls  yurisk.info --summarize --human --recursive`
 
 - Get access-list associated with the bucket provided you have permissions to do so on this bucket:
 
