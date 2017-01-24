@@ -9,3 +9,7 @@
 - To verify the configuration:
 
 `aws s3api get-bucket-website --bucket yurisk.info`
+
+- Delete website configuration from a bucket:
+
+`aws s3api delete-bucket-website --bucket yurisk.info`
