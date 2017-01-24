@@ -10,6 +10,6 @@
 
 `aws s3api get-bucket-website --bucket yurisk.info`
 
-- Delete website configuration from a bucket:
+- Delete website configuration from a bucket (doesn't delete any objects):
 
 `aws s3api delete-bucket-website --bucket yurisk.info`
