@@ -8,6 +8,8 @@
   
   * some commands work on folders/buckets only, so they ignore last slash anyway: *sync*, *mb*, *rb*, *ls*
   
+  * long options starting with "--" can be shorten to the least recognizable, e.g. --recursive => --rec
+  
 * Include and Exclude filters for the names:
 
   * Wildcards supported: *, ?, [sequence], [!negated sequence]
