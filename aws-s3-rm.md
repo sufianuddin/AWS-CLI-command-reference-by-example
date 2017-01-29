@@ -18,5 +18,5 @@
 
 - Delete an empty bucket:
 
-`aws s3api delete-bucket-website --bucket yurisk.info`
+`aws s3api delete-bucket --bucket yurisk.info`
 
